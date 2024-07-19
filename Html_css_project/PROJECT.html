@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+    <head>
+        <link rel="stylesheet" href="project.css">
+        <h1 style="color:#67C6E3;">WELCOME TO DOMINO'S</h1>
+        <h2>
+            <marquee><i>INDIA'S POPULAR PIZZA SELLER</i></marquee>
+        </h2>
+    </head>
+</header>
+
+<body>
+    <main>
+        <img src="https://api.dominos.co.in/prod-olo-api/images/flashBanner/dominos_adaptation_desktop.jpg" alt="pizza"
+            class="center">
+        <img src="Dominos-Symbol.png" alt="pizza-logo" class="middle">
+        <div class="form-center">
+            <form class="info">
+                <form action="/action_page.php"></form>
+                <label for="username"><b>USERNAME:</b><input type="text" id="username" name="username"
+                        required></label><br>
+                <br>
+                <label for="password"><b>PASSWORD:</b><input type="password" id="password" name="password"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                        required></label><br>
+                <br>
+            </form><br>
+            <a href="http://127.0.0.1:5500/Table1.html" target="_blank" submit>
+                <button class="button" onclick="alert('Redirect to the next page?')"><b>SUBMIT</b></button>
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>

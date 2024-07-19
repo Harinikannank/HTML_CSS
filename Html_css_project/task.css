@@ -1,0 +1,32 @@
+/* Basic styles for the navigation bar */
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Hide other nav items except the clicked one */
+.topnav .nav-item.hide {
+    opacity: 0; /* Make other items invisible */
+    transform: scale(0); /* Shrink other items */
+    pointer-events: none; /* Disable interaction with hidden items */
+}
+
+/* Optionally, you can use transform instead of scale if you prefer just hiding without shrinking */
+/*
+.topnav .nav-item.hide {
+    display: none;
+}
+*/
+

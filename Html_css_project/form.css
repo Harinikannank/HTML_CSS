@@ -1,0 +1,60 @@
+body{
+    background-color:#DFF5FF;
+}
+input[type=text], select {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:200px;
+    height:40px;
+    background-color:#378CE7;
+}
+input[type=text]:focus {
+        background-color: lightblue;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:#378CE7;
+    font-size: 16px;
+    resize: none;
+}
+  input[type=textarea]:focus {
+    background-color: lightblue;
+}
+.bitter{
+        background-color:#67C6E3;
+        color:white;
+        padding: 5px 5px;
+        margin: 5px 4px;
+        cursor: pointer; 
+        border-radius: 10px;
+        transition-duration: 0.4s ease-out;
+        float:left;
+        position:absolute;
+        bottom:0px;
+    }
+.bitter:hover{
+        background-color: #378CE7;
+    }
+input[type=tel]:focus {
+        background-color: lightblue;
+    }
+input[type=tel] {
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        width:200px;
+        height:40px;
+        background-color:#378CE7;
+    }
+   .hai{
+    position: absolute;
+    left: 600px;
+   }

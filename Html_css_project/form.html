@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <head>
+        <title>Form page</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+  </header>
+      <main>
+        <fieldset>
+          <legend>CUSTOMER INFORMATION</legend>
+            <form action="/action_page.php"></form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" value="John" required><br>
+    <label for="phonenumber">phone number:</label><br>
+  <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /<br>
+    <p>Where you want to eat?</p>
+    <input type="radio" id="Dine-in" name="Eating place" value="Dine-in">
+    <label for="Dine-in">Dine-in</label><br>
+    <input type="radio" id="Delivery" name="Eating place" value="Delivery">
+    <label for="Delivery">Delivery</label><br>
+    <p>Choose the type you want to eat?</p>
+    <input type="checkbox" id="Veg" name="pizza" value="Veg">
+ <label for="Veg">Veg</label><br>
+<input type="checkbox" id="Non-veg" name="pizza" value="Non-veg">
+<label for="Non-veg">Non-veg</label><br>
+<input type="checkbox" id="Desserts" name="Pizza" value="Desserts">
+<label for="Desserts">Desserts</label><br>
+<input type="checkbox" id="Beverages" name="Pizza" value="Beverages">
+<label for="Beverages">Beverages</label><br>
+<br><label for="Veg">Veg:</label>
+  <select name="Veg" id="Veg">
+    <option value="Select">Select</option>
+    <option value="Margherita">Margherita</option>
+    <option value="Peppy Paneer">Peppy paneer</option>
+    <option value="Indi Tandoori Paneer">Indi Tandoori paneer</option>
+    <option value="Farmhouse">Farmhouse</option>
+    <option value="Veggie Paradise">Veggie Paradise</option>
+    <option value="Veg Extravaganza">Veg Extravaganza</option>
+    <option value="Cheese n Corn">Cheese n corn</option>
+    <option value="Mexican Green Wave">Mexican Green Wave</option><br>
+  </select>
+ <br><br><label for="Non-veg">Non-veg:</label>
+<select name="Non-veg" id="Non-veg">
+  <option value="Select">Select</option>
+  <option value="Pepper Barbecue Chicken">Pepper Barbecue Chicken</option>
+  <option value="Blazing Chicken and Paprika">Blazing Chicken and Paprika</option>
+  <option value="Chicken Keema Paratha Pizza">Chicken Keema Paratha Pizza</option>
+  <option value="Chicken Pepperoni">Chicken Pepperoni</option>
+  <option value="Gourmet-Pizza">Gourmet-Pizza</option>
+  <option value="Smoked Chicken Gourmet-Pizza">Smoked Chicken Gourmet-pizza</option>
+  <option value="Chicken Fiesta">Chicken Fiesta</option>
+  <option value="Fiery Sausage and Paprika">Fiery Sausage and Paprika</option><br>
+</select>
+<br><br><label for="Desserts">Desserts:</label>
+<select name="Desserts" id="Desserts">
+  <option value="Select">Select</option>
+  <option value="Choco Lava Cake">Choco Lava Cake</option>
+  <option value="Butterscotch Mousse Cake">Butterscotch Mousse Cake</option>
+  <option value="Red Velvet Lava Cake">Red Velvet Lava Cake</option>
+  <option value="Choco Lava Cake+ Pepsi">Choco Lava Cake+ Pepsi</option><br>
+  </select>
+ <br><br><label for="Beverages">Beverages:</label>
+  <select name="Beverages" id="Beverages">
+    <option value="Select">Select</option>
+  <option value="Pepsi 475ml">Pepsi 475ml</option>
+  <option value="Pepsi 295ml">Pepsi 295ml</option>
+  <option value="7Up 475ml">7Up 475ml</option>
+  <option value="Mirinda 475ml">Mirinda 475ml</option>
+  <option value="Lipton Ice Tea(350 ml)">Lipton Ice Tea(350 ml)</option><br>
+</select>
+  <br><br><P><label for="Address">Delivery address:</label></P><br>
+  <textarea id="Address" name="Address" rows="6" cols="50">Tambaram,Chennai</textarea> 
+  
+  </fieldset>
+    <div class="hai">
+    <button class="bitter" onclick="alert('Order Placed.Thankyou and have a great day!')"><a href="http://127.0.0.1:5500/Media.html" target="_blank" SUBMIT></a><b>SUBMIT</b></button>
+    </a></div>
+    </form> 
+    </main>
+    </body>
+</html>
